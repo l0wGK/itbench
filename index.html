@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ITBench</title>
+    <script src="data/scripts/script.js"></script>
+    <link href="data/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="name"><b>ITBench</b></p>
+    
+    <center>
+      <label id="seconds1" onclick="setTime(1)">1 Second</label> | <label id="seconds5" onclick="setTime(5)">5 Seconds</label> | <label id="seconds10" onclick="setTime(10)">10 Seconds</label><br>
+      <div id="cps" onclick="clicked()" style="display:block;">
+        <p>Click here!</p>
+      </div>
+      <div id="restart_div">
+        <button id="restart" onclick="restart()">Restart</button><br>
+      </div>
+      <label id="score">Score: <label id="score_int"><b>0</b></label></label>
+
+      <footer>© 2021 A <a href="https://lshyzzz.me" target="_blank "id="lowe_garmark"><b>Lowe Garmark</b></a> Production</footer>
+    </center>
+  </body>
+</html>
